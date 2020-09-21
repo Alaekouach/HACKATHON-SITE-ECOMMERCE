@@ -338,8 +338,29 @@ text-align: center;
 }
 .services figure{
   margin-top: 40px;
+  text-align: center; 
+}
+
+.contact figure{
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.contact figcaption{
+  font-size: 0.9rem;
   text-align: center;
-  
+  margin-left: 30px;
+}
+
+.serimg{
+  width: 50%;
+}
+
+.serv figcaption{
+  font-size: 0.8rem;
+  margin-top: 10px;
 }
 
 .contact,.infos,.apropos {
@@ -367,31 +388,6 @@ text-align: center;
 .newsletter label{
   margin-left: 140px;
   color: white;
-}
-
-.contact figure{
-  display: flex;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  font-size: 20px;
-}
-.contact figcaption{
-  font-size: 0.9rem;
-  text-align: center;
-  margin-left: 30px;
-}
-
-.services figure i{
-  font-size: 40px;
-}
-
-.serimg{
-  width: 50%;
-}
-
-.serv figcaption{
-  font-size: 0.8rem;
-  margin-top: 10px;
 }
 
 .infos figure,.apropos figure{
@@ -469,12 +465,37 @@ text-align: center;
 
 .menubar .contactus{
   margin-top: 10px;
+  margin-left: 1150px;
+}
+
+.slideshow-container{
+  width: 80%;
+  margin: auto;
+  margin-left: 500px;
+  height: 490px;
+}
+
+#navbar{
+  display: block;   
+  position: absolute;
+  margin-top: 117px;
+}
+
+#navbar .categories{
+  height: 60px;
+  font-size: 1.6rem;
+}
+
+.msgcovid{
+  text-align: center;
+  font-size: 1.3rem;
 }
 
 #logo{
   width: 10%;
   margin-left: 20px;
   margin-top: -15px ;
+  
 }
 
 .container{
@@ -484,16 +505,18 @@ text-align: center;
   margin-left: 5px;
 }
 
-.container .magasin{
-  display: block;
-}
-
 .textpanier{
   display: block;
 }
 
 .panier {
-  margin-top: -0.4px
+  margin-top: -0.4px;
+}
+
+.container .panier i{
+  font-size: 35px;
+color: black;
+margin-right: 5px;
 }
 
 .search{
@@ -501,15 +524,23 @@ text-align: center;
   margin-top: 20px;
   position: absolute;
   top: 40px;
-  left: 500px;
+  left: 350px;
+  width: 40%;
 }
 
 .search input{
   width: 75%;
 }
 
-.container .magasin{
+.offreimg{
+  margin-top: 35px;
+}
+
+.magasin{
+  display: block;
+  padding-left: 200px;
   margin-left: 800px;
+  margin-top: 35px;
 }
 
 .container .magasin figure{
@@ -517,9 +548,9 @@ display: flex;
 }
 
 .container .magasin i{
-font-size: 30px;
+font-size: 35px;
 color: black;
-
+margin-right: 5px;
 }
 
 .magasins {
@@ -532,12 +563,103 @@ color: black;
   margin: auto;
   justify-content: space-around;
 }
+
 .catalogues img{
-  
-    height: 120px;
-    width: 80px;
-   
-  
+    height: 170px;
+    width: 120px;  
 }
+
+.magasins{
+  display: flex;
+  justify-content: space-around;
+  width: 85%;
+  margin: auto;
+}
+
+.magasins img{
+  width: 80%;
+  margin: auto;
+}
+
+.offretxt,.magasintxt,.cataloguetxt{
+  font-size: 2rem;
+  height: 60px;
+  padding-top: 9px;
+}
+
+
+.foot1 .services h2{
+  margin-top: -20px;
+  padding-top: 13px;
+  font-size: 1.7rem;
+  height: 60px;
+  background-color: #4b585f;
+}
+
+.foot1 .services .serv{
+  width: 80%;
+  margin: auto;
+}
+
+.foot1 .services .serv .serimg{
+  width: 20%;
+}
+
+.foot1 .services .serv figcaption{
+  font-size: 1.2rem;
+}
+
+.serv figure figcaption{
+  width: 70%;
+  margin: auto;
+}
+
+.foot2{
+  display: flex;
+  overflow: hidden;
+}
+
+.contact,.infos,.apropos {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 25%;
+  padding-top: 30px ;
+}
+
+.contact figure{
+  margin-left: 60px;
+  margin-top: 30px;
+}
+
+.contact label,.infos label,.apropos label{
+  margin-left: 0px;
+  font-size: 1.2rem;
+}
+
+.newsletter{
+  margin: 0;
+  padding: 0;
+  width: 170%;
+  height: 250px;  
+  padding-top: 30px;
+}
+
+.newsletter label{
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.newsletter input{
+  margin-bottom: -70px;
+}
+
+.newsletter button{
+  padding-bottom: 7px;
+}
+
+
+
+
 
 }
