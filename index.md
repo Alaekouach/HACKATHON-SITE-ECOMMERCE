@@ -1,37 +1,346 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="all.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&display=swap" rel="stylesheet">
 
-You can use the [editor on GitHub](https://github.com/Alaekouach/HACKATHON-SITE-ECOMMERCE/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+   
+</head>
+<body>
+    <header>
+       
+        <!--   Mobile :Menu toggle + compte +langue   desktop: Social media + text + compte + langue   -->
+        <div class="menubar" >
+            <a href=""><i class="fa fa-bars" id="bar"></i></a>
+    
+            <div class="socialmedia">
+                <a href=""><i class="fa fa-facebook"></i></a>
+                <a href=""><i class="fa fa-instagram"></i></a>
+                <a href=""><i class="fa fa-whatsapp"></i></a>
+            </div>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+            <p class="contactus">Contactez-Nous : 0546378293</p>
 
-### Markdown
+            <div class="acc-lan">
+                <div class="account">
+                    <div>
+                    <a href=""><i class="fa fa-user"></i></a>
+                    <a href=""><i class="fa fa-angle-down"></i></a>
+                    </div>
+                </div>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+                <div class="language">
+                    <select name="" id="">
+                        <option value="">Fr</option>
+                        <option value="">Ar</option>
+                        <option value="">En</option>
+                    </select>
+                </div>
+            </div>    
 
-```markdown
-Syntax highlighted code block
+        </div>
+        <nav id="navbar">
+            <ul > 
+               <div class="categories">Catégories</div>
+               <a href=""><li class="" >Eaux, boissons</li></a>
+               <a href=""><li class="" >Épicerie Sucrée</li> </a>
+               <a href=""><li class="" >Bonbons & Chocolats</li></a>
+               <a href=""><li class="" >Conserves</li></a>
+               <a href=""><li class="" >Condiment et vinaigrettes</li></a> 
+               <a href=""><li class="" >Påtisserie & Desserts</li> </a>
+               <a href=""><li class="" >Epicerie fine</li> </a>
+               <a href=""><li class="" >Riz & Féculents</li></a>
+               <a href=""><li class="" >Épicerie salée</li> </a>
+               <a href=""><li class="" >Herbes, épices et assaisonnements</li></a>
+               <a href=""><li class="" >Produits domestique</li></a>
+               <a href=""><li class="" >Confituren, gelées et tartinades sucrées</li></a>
+            </ul>
+        </nav>
 
-# Header 1
-## Header 2
-### Header 3
+<!--   Mobile :Logo + panier   desktop: Logo + input + barre de recherche + magasins + panier   -->
 
-- Bulleted
-- List
+        <div class="container">
 
-1. Numbered
-2. List
+            <img src="img/logo.png" alt="logo" id="logo">
 
-**Bold** and _Italic_ and `Code` text
+            <div class="inputcat">
+                <label for="">Catégories</label>
+                <select name="" id="">
+                    <option value=""></option>
+                </select>
+            </div>
 
-[Link](url) and ![Image](src)
-```
+            <div class="magasin">
+                <figure>
+                    <a href=""><i class="fa fa-map-marker" aria-hidden="true"></i></a>
+                    <div>
+                        <figcaption>Mon magasin</figcaption>
+                        <small>Choisir un magasin</small>
+                  </div>
+                </figure>
+            </div>
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+            <div class="panier">
+                <figure>
+                    <a href=""><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                    <div>
+                        <figcaption class="textpanier">Mon panier</figcaption>
+                        <small>0.00 Dhs</small>
+                  </div>
+                </figure>
+            </div>
 
-### Jekyll Themes
+        </div>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Alaekouach/HACKATHON-SITE-ECOMMERCE/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+            <div class="search">
+                <input type="text" name="recherche" placeholder="Cherchez un produit ou une catégorie"> 
+                <i class="fa fa-search" aria-hidden="true"></i>
+            </div>
+        
+<!--   Mobile :Message de pandémie   desktop: Message de pandémie   -->
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<div class="msgcovid">
+    <p class="textdefile">Nous offrons la Livraison Gratuite en raison de la pandémie du Covid-19.</p>
+</div>
+
+    </header>
+
+<main>
+
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides ">
+          <div class="numbertext"></div>
+          <img src="/img/1.jpg" style="width:100%">
+          <div class="text"></div>
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext"></div>
+          <img src="/img/2.jpg" style="width:100%">
+          <div class="text"></div>
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext"></div>
+          <img src="/img/3.jpg" style="width:100%">
+          <div class="text"></div>
+        </div>
+      
+        <div class="mySlides fade">
+            <div class="numbertext"></div>
+            <img src="/img/4.jpg" style="width:100%">
+            <div class="text"></div>
+          </div>
+    
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+      
+      <!-- The dots/circles -->
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+    
+    </div>
+    </div>
+    
+    </div> 
+   
+ 
+<div>
+    <div class="offretxt">
+        <p>Offre du jour</p>
+    </div>
+
+    <div class="imgoffre">
+        
+        <figure class="offre">
+            <img src="img/imgs/offre1.jpg" alt="" class="offreimg">
+            <figcaption >Lait Jaouda</figcaption>
+            <figcaption  class="prix">7.50dhs</figcaption>
+            <figcaption class="barre">8.70dhs</figcaption>
+        </figure>
+
+        <figure class="offre">
+            <img src="img/imgs/offre2.jpg" alt="" class="offreimg">
+            <figcaption >Danone Yopro</figcaption>
+            <figcaption class="prix" >20.00dhs</figcaption>
+            <figcaption class="barre">100.00dhs</figcaption>
+        </figure>
+
+        <figure class="offre">
+            <img src="img/imgs/offre3.jpg" alt="" class="offreimg">
+            <figcaption >Pistaches Grillées</figcaption>
+            <figcaption class="prix" >19.75dhs</figcaption>
+            <figcaption class="barre">29.75dh</figcaption>
+        </figure>
+
+        <figure class="offre">
+            <img src="img/imgs/offre4.jpg" alt="" class="offreimg">
+            <figcaption >Bebeto Gomme</figcaption>
+            <figcaption class="prix">14.00dh</figcaption>
+            <figcaption class="barre">19.00dh</figcaption>
+        </figure>
+
+        <figure class="offre">
+            <img src="img/imgs/offre5.jpg" alt="" class="offreimg">
+            <figcaption >Leader Chips</figcaption>
+            <figcaption class="prix">8.50dhs</figcaption>
+            <figcaption class="barre">12.00dhs</figcaption>
+        </figure>
+
+        <figure class="offre">
+            <img src="img/imgs/offre6.jpg" alt="" class="offreimg">
+            <figcaption >Lait de croissance</figcaption>
+            <figcaption class="prix">29.00dhs</figcaption>
+            <figcaption class="barre">35.00dhs</figcaption>
+        </figure>
+
+    </div>
+
+</div>
+
+<div>
+
+    <div class="magasintxt">
+        <p>Choisir votre magasin</p>
+    </div>
+
+    <div class="magasins">
+        <a href=""><img src="img/magasins/marj.jpg" alt="marjane"></a>
+        <a href=""><img src="img/magasins/bim.jpg" alt="bim"></a>
+        <a href=""><img src="img/magasins/carrefour.jpg" alt="carrefour"></a>
+        <a href=""><img src="img/magasins/acima.jpg" alt="acima"></a>
+    </div>
+
+</div>
+
+<div>
+
+    <div class="cataloguetxt">
+        <p>Voir les catalogues</p>
+    </div>
+
+    <div class="catalogues">
+        <a href=""><img src="img/catalogues/catalogue_marjane.jpg" alt="marjane"></a>
+        <a href=""><img src="img/catalogues/Bim-catalogue.jpg" alt="bim"></a>
+        <a href=""><img src="img/catalogues/carrefour-catalogue.png" alt="carrefour"></a>
+        <a href=""><img src="img/catalogues/Catalogue-Acima.jpg" alt="acima"></a>
+    </div>
+
+</div>
+
+</main>
+
+<footer >
+
+  <div class="foot1">
+    <div class="services">
+        <h2>Nos services</h2>
+
+        <div class="serv">
+            <figure >
+                <img class="serimg" src="/img/services/fast-delivery.png" alt="livraison">
+                <figcaption>Livraison gratuite et rapide</figcaption>     
+            </figure>
+
+            <figure >
+                <img class="serimg"  src="/img/services/secure-payment.png" alt="paiement sécurisé">
+                <figcaption >Paiement sécurisé ou à la livraison</figcaption>     
+            </figure>
+
+            <figure >
+                <img class="serimg" src="/img/services/24-hours-phone-service.png" alt="support">
+                <figcaption >Support 24/7</figcaption>     
+            </figure>
+
+            <figure >
+                <img class="serimg" src="/img/services/returning.png" alt="retour">
+                <figcaption >Retour facile</figcaption>     
+            </figure>
+
+        </div>
+    </div>
+  </div>
+
+  <div class="foot2">
+        <div class="contact">
+            <label for="">Contactez-nous</label>
+
+            <figure >
+                <i class="fa fa-map-pin"></i>
+                <figcaption >Rue Mohammed 5 Hassan RABAT</figcaption>     
+            </figure>
+            <figure >
+                <i class="fa fa-phone"></i>
+                <figcaption >Contact@groceryoneclick.com</figcaption>     
+            </figure>
+            <figure >
+                <i class="fa fa-at"></i>
+                <figcaption >+212 5 46 37 82 93</figcaption>     
+            </figure>
+        </div>
+
+        <div class="infos">
+            <label for="">Informations</label>
+
+            <figure >
+                <figcaption ><a href="">Conditions générales de vente</a></figcaption>     
+            </figure>
+            <figure >
+                <figcaption ><a href="">Mentions légales</a</figcaption>     
+            </figure>
+            <figure >
+                <figcaption ><a href="">Infos sur les magasins</a</figcaption>     
+            </figure>
+            <figure >
+                <figcaption ><a href="">Avis clients</a</figcaption>     
+            </figure>
+            
+        </div>
+
+        <div class="apropos">
+            <label for="">A propos</label>
+
+            <figure >
+                <figcaption ><a href="">Qui sommes nous</a></figcaption>     
+            </figure>
+            <figure >
+                <figcaption ><a href="">Contactez-nous</a</figcaption>     
+            </figure>
+            <figure >
+                <figcaption ><a href="">Plan du site</a</figcaption>     
+            </figure>
+            <figure >
+                <figcaption ><a href="">Offre d'emploi</a</figcaption>     
+            </figure>
+        </div>
+
+        <div class="newsletter">
+            <label for="">NewsLetter</label>
+            <input type="email" placeholder="Inserer votre E-mail">
+            <button>S'enregistrer</button>
+        </div>
+
+  </div>
+
+</footer>
+
+
+<script src="home.js"></script> 
+<script>showSlides();</script>
+</body>
+</html>
