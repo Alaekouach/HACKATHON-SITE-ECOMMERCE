@@ -163,7 +163,7 @@ main{
 
 /* Slideshow container */
 .slideshow-container {
-    max-width: 1000px;
+  max-width: 1000px;
     position: relative;
     margin: auto;
   }
@@ -469,20 +469,19 @@ text-align: center;
 }
 
 .slideshow-container{
-  width: 80%;
-  margin: auto;
-  margin-left: 500px;
+  width: 100%;
+  margin: auto;  
   height: 490px;
 }
 
 #navbar{
   display: block;   
   position: absolute;
-  margin-top: 117px;
+  margin-top: 134px;
 }
 
 #navbar .categories{
-  height: 60px;
+  height: 85px;
   font-size: 1.6rem;
 }
 
